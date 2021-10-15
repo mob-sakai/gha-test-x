@@ -6,3 +6,4 @@ piyo
 moke
 hoge
 hoge
+fuga
