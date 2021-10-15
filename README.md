@@ -10,3 +10,4 @@ fuga
 huga
 hoge
 piyo
+fuga
