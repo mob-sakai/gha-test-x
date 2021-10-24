@@ -35,8 +35,8 @@ jobs:
       - name: Unity - Request Activation File
         id: activation
         uses: game-ci/unity-request-activation-file@v2.0-alpha-1
-          with:
-            customImage: mobsakai/unity3d:2020.3.21f1
+        with:
+          customImage: mobsakai/unity3d:2020.3.21f1
       - uses: actions/upload-artifact@v2
         with:
           name: ${{ steps.activation.outputs.filePath }}
